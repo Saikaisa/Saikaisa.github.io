@@ -3,6 +3,8 @@
 icon: fas fa-info-circle
 order: 4
 ---
+## 关于 Saikai's Home
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+这里是 Saikai 的 Github Pages 个人主页 desu.
+
+主站：https://saikaisa.top

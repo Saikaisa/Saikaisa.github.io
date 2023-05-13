@@ -77,10 +77,10 @@ theme_mode: dark # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: 'http://pics.saikaisa.top'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: http://pics.saikaisa.top/avatar.jpg
+avatar: /avatar.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
