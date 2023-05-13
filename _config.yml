@@ -80,7 +80,7 @@ theme_mode: dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://s.gravatar.com/avatar/7d706eea1c9fc1c17e476f5eb013cb75?s=80
+avatar: http://pics.saikaisa.top/avatar.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
