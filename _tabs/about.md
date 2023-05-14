@@ -12,5 +12,5 @@ order: 4
 </p>
 <br>
 <p align="center">
-    <a href="https://osu.ppy.sh/users/17899235"><img src="https://osu-sig.vercel.app/card?user=Saikaisa&mode=std&lang=en&animation=true&w=600&h=349" width="600" width="550" /></a>
+    <a href="https://osu.ppy.sh/users/17899235"><img src="https://osu-sig.vercel.app/card?user=Saikaisa&mode=std&lang=en&animation=true&w=650&h=378" width="600" /></a>
 </p>
