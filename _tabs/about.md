@@ -3,13 +3,10 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
+## 关于 Saikai's Home
 <link rel="stylesheet" href="https://src.saikaisa.top/fonts/stylesheet.css">
-
-<h1 align="center" style="font-family: JPSimplified;">关于 Saikai's Blog</h3>
 <br>
-
-<h3 align="center" style="font-family: JPSimplified;">这里是 Saikai / Saikaisa 的 Github Pages 个人主页 desu.</h3>
+<h3 align="center">这里是 Saikai / Saikaisa 的 Github Pages 个人主页 desu.</h3>
 
 <p align="center" style="font-family: JPSimplified;">CS本科 / LGBT / 友好 / 不善社交 / 喜欢可爱的事物</p>
 <br>

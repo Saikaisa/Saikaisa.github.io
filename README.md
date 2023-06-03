@@ -1,19 +1,45 @@
-# Saikaisa 的个人博客
+# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-欢迎来到我的个人博客！这里是我发布笔记的地方。
+When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `/_data`, `/_layouts`, `/_includes`, `/_sass` and `/assets`, as well as a small part of options of the `/_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
 
-## 关于我
+The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
 
-- 👋 你好，我是 **Saikai / Saikaisa**
-- 💻 个人网站：[saikaisa.top](https://saikaisa.top)
-- 📫 如果你想与我取得联系，请发送电子邮件至 saikaiho@outlook.com
+To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
 
-## 许可与版权
+```shell
+.
+├── _config.yml
+├── _plugins
+├── _tabs
+└── index.html
+```
 
-除非另有说明，本博客上的所有内容均受版权保护。你可以在 _MIT_ 许可证下自由使用、共享和修改这些内容，但请遵循许可证的要求。有关详细信息，请参阅 [LICENSE 文件](./LICENSE)。
+To save you time, and also in case you lose some files while copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
 
-感谢访问我的个人博客！如果你有任何建议或问题，请随时向我发送邮件或在 GitHub 上提出 issue。
+## Prerequisites
 
----
+Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of the basic environment. [Git](https://git-scm.com/) also needs to be installed.
 
-© 2023 Saikaisa. All Rights Reserved.
+## Installation
+
+Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+
+Then clone it to your local machine and run:
+
+```
+$ bundle
+```
+
+## Usage
+
+Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+
+## License
+
+This work is published under [MIT][mit] License.
+
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[use-template]: https://github.com/cotes2020/chirpy-starter/generate
+[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
