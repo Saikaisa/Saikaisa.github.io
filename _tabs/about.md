@@ -4,7 +4,13 @@ icon: fas fa-info-circle
 order: 4
 ---
 ## 关于 Saikai's Home
-<link rel="stylesheet" href="../assets/css/font.css">
+<link rel="stylesheet" href="https://src.saikaisa.top/fonts/stylesheet.css">
+<style>
+	p{
+		font-family: "JPSimplified";
+		font-size: 16px;
+	}
+</style>
 <br>
 <h3 align="center">这里是 Saikai / Saikaisa 的 Github Pages 个人主页 desu.</h3>
 
