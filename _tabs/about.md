@@ -8,7 +8,7 @@ order: 4
 <br>
 <h3 align="center">这里是 Saikai / Saikaisa 的 Github Pages 个人主页 desu.</h3>
 
-<p align="center">CS本科 / LBGT / 友好 / 不善社交 / 喜欢可爱的事物</p>
+<p align="center">CS本科 / LGBT / 友好 / 不善社交 / 喜欢可爱的事物</p>
 <br>
 
 ---
