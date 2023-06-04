@@ -60,7 +60,7 @@ HTML标记语言、Servlet编程API文档、JSP页面元素、MVC【必须采用
 
 ### 4. 商品管理和预定功能
 
-- [ ] #### [**allReservation.jsp**](#allReservation.jsp)
+- [ ] #### <a name="allReservation.jsp">allReservation.jsp</a>
 
 	页面布局如下图所示。
 	
@@ -70,13 +70,13 @@ HTML标记语言、Servlet编程API文档、JSP页面元素、MVC【必须采用
 
 	[^加/减分项]: 若提供分页功能，则有额外5个加分【最高分为100分】。【不显示当前用户名，扣3分；中文乱码，扣3分，商品名称没有出现中文，扣3分；预订时间错乱，扣3分；缺少该功能点截图，扣10分；表明该功能点实现的截图逻辑性不强，扣3分；缺少Reservation（实体类，对应表reservation）、Product（实体类、对应表product）、ReservationDAO（实现对表reservation数据读写操作）、ProductDAO（实现对表product数据读写操作）、ReservationService、ReservationController，ProductService、ProductController，每个扣2分；代码功能实现不正确，每个扣3分；资源命名不正确，每个扣1分；本功能点最多扣25分】
 	
-- [ ] #### [**modifyReservation.jsp**](#modifyReservation.jsp)
+- [ ] #### <a name="modifyReservation.jsp">modifyReservation.jsp</a>
 
 	在allReservation.jsp页面通过订单编号列前的选择框选择一行**（每次仅可以选择1行）**，点击“变更预订状态”按钮，跳转到页面**modifyReservation.jsp，**显示该预订详细信息，如图所示。**仅当预订状态为“进行中”，才可以进行变更**，从**“进行中” → ”已撤销”**，或者从 **“进行中” → ”已完成”**。**取消变更则返回页面**allReservation.jsp，确认变更成功则也返回allReservation.jsp，否则提示不能变更，**停留在页面**modifyReservation.jsp。
 	
 	<img src="http://pics.saikaisa.top/image-20230604085728827.png" alt="image-20230604085728827" style="zoom:50%;" />
 	
-- [ ] #### [**productOverview.jsp**](#productOverview.jsp)
+- [ ] #### <a name="productOverview.jsp">productOverview.jsp</a>
 
 	浏览商品页面，展示所有商品信息，自行设计页面布局，展示所有商品信息项。
 
